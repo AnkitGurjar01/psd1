@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contioner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.col-40{
+    width: 40%;
+}
+.col-50{
+    width: 50%;
+}
+.po-ab{
+    position: absolute;
+}
+.po-re{
+    position: relative;
+}
+.sec-1{
+    background-image: url(./img/Group\ 1\ \(4\).png),linear-gradient(rgba(255, 0, 0, 0.434),black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 50px 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menubar h1{
+    width: 100%;
+    font-size: 30px;
+    text-align: end;
+    padding: 0 20px 0 0;
+    color: #b09165;
+}
+.menubar{
+    padding: 20px 0;
+    margin: 0 0 0 30px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu{
+    padding: 0 0 100px 0;
+}
+ul{
+    text-align: end;
+}
+ul li a{
+    margin:0 0 0 100px;
+    text-decoration: none;
+    color: #b09165;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(255, 251, 251);
+}
+.sec-1-1 h2{
+    margin: 0 0 0 90px;
+    font-size: 105px;
+    color: #b09165;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 5px 2px 5px rgb(8, 1, 1);
+}
+.a p{
+    font-size: 25px;
+    color: #b09165;
+    text-align: end;
+    margin: 20px 0px 0 10px ;
+    text-shadow: 5px 2px 5px rgb(8, 1, 1);
+}
+.a h3{
+    font-size: 100px;
+    color: #b09165;
+    margin: 0 0 0 40px;
+    padding:0 0 100px 0 ;
+    text-shadow: 5px 2px 5px rgb(8, 1, 1);
+}
+.img-2{
+    top: 340px;
+    left: 90px;
+}
+.img-3 {
+    top: 370px;
+    left: 90px;
+}
+.img-4{
+    top: 250px;
+    left: 90px;
+}
+.img-5{
+    z-index: -1;
+    right: -130px;
+    top: 120px;
+}
+.sec-2{
+    background-color: rgb(61, 17, 17);
+    padding: 100px 0;
+}
+.sec-2-text img{
+    width: 100%;
+}
+.img-6{
+    margin:0 0 40px 20px;
+}
